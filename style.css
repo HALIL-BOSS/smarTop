@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Medium; /* Гарнитура шрифта */
+    src: url(Medium.otf)
+      }
+body{
+background-color:white;
+margin:0 auto;
+}
+ .space { 
+padding: 8px; /* Поля */
+background-color:white;
+font-size:27px;
+font-family:"Medium",serif;
+
+color:black;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:gray;
+
+
+
+}
+
+select{
+font-size:23px;
+font-family:"Medium",serif;
+background-color:white;
+width:100%;
+max-width:1170px;
+height:45px;
+border:none;
+margin-top:20px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:gray;
+
+
+
+}
+
+.diz{
+  text-align:center;
+  font-size:21px;
+  margin-top:8px;
+  font-family: Medium, serif;
+  font-weight:bold;
+  }
+
+.container{
+width:96%;
+max-width:960px;
+margin:0 auto;
+}
+img{
+margin-top:8px;
+width:32%;
+height:auto;
+}
+.container1{
+width:96%;
+max-width:960px;
+margin:0 auto;
+}
+
+.btn {
+background-color:#0074CF;
+color:white;
+  border-radius:15px;
+width:25%;
+    
+border:none;
+
+      font-size:20px;  
+      margin-top: 8px;
+
+font-family:"Medium",serif;
+
+}
+
+
+.wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+@media (min-width: 1170px) {
+    .wrapper {
+        max-width: 1170px;
+    }
+}
+    
+}
+
+
